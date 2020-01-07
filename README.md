@@ -3,7 +3,7 @@ Stress tester for RTMP media servers,this tool is based on librtmp,It uses multi
 This is a very useful tool for RTMP media server developers.
 
 ### Usage
-rtmpstress -c <num> -i <url>
+rtmpstress -c &lt;num&gt; -i &lt;url&gt;
 
 -c: specify the number of concurrent threads
 -i: specify the url of rtmp stream to test
