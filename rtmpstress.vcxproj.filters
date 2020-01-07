@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="librtmp">
+      <UniqueIdentifier>{026bb68d-4637-4cff-9d6d-d13ea1b6d2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librtmp\include">
+      <UniqueIdentifier>{bbe495f9-35ad-4783-b1aa-2974ee9f81ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librtmp\sources">
+      <UniqueIdentifier>{ccad4a7d-8d32-4c04-b766-0c38c6fd7162}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="librtmp\amf.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\bytes.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\dh.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\dhgroups.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\handshake.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\http.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\log.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\rtmp.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="librtmp\rtmp_sys.h">
+      <Filter>librtmp\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="librtmp\amf.c">
+      <Filter>librtmp\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\hashswf.c">
+      <Filter>librtmp\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\log.c">
+      <Filter>librtmp\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\parseurl.c">
+      <Filter>librtmp\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="librtmp\rtmp.c">
+      <Filter>librtmp\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmpstress.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
