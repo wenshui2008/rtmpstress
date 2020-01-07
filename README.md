@@ -7,7 +7,7 @@ rtmpstress -c &lt;num&gt; -i &lt;url&gt;
 
 -c: specify the number of concurrent threads<br>
 -i: specify the url of rtmp stream to test<br>
-e.g.
+e.g.<br>
 rtmpstress -c 500 -i rtmp://xxx.xxx.xxx.xxx/live/stream
 
 ### Build
