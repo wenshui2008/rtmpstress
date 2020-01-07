@@ -5,8 +5,8 @@ This is a very useful tool for RTMP media server developers.
 ### Usage
 rtmpstress -c &lt;num&gt; -i &lt;url&gt;
 
--c: specify the number of concurrent threads
--i: specify the url of rtmp stream to test
+-c: specify the number of concurrent threads<br>
+-i: specify the url of rtmp stream to test<br>
 e.g.
 rtmpstress -c 500 -i rtmp://xxx.xxx.xxx.xxx/live/stream
 
